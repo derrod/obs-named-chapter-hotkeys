@@ -1,4 +1,4 @@
-# OBS Encoder Preview
+# Named Chapter Hotkeys
 
-Plugin to show a preview of encoder output without going live/recording.
+This plugin adds a new tool window to specify addition chapter hotkeys with custom names.
 
