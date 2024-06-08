@@ -46,10 +46,10 @@ void ChapterHotkeyUI::on_actionAddHotkey_triggered()
 	ui->listWidget->sortItems();
 }
 
-void ChapterHotkeyUI::on_aactionRemoveHotkey_triggered()
+void ChapterHotkeyUI::on_actionRemoveHotkey_triggered()
 {
 	auto item = ui->listWidget->currentItem();
-	ui->listWidget->removeItemWidget(item);
+	delete item;
 	ui->listWidget->sortItems();
 }
 

@@ -33,7 +33,7 @@ public:
 
 private slots:
 	void on_actionAddHotkey_triggered();
-	void on_aactionRemoveHotkey_triggered();
+	void on_actionRemoveHotkey_triggered();
 	void on_actionRenameHotkey_triggered();
 };
 
