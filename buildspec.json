@@ -1,0 +1,40 @@
+{
+    "dependencies": {
+        "obs-studio": {
+            "version": "30.2.0-beta1",
+            "baseUrl": "https://github.com/obsproject/obs-studio/archive/refs/tags",
+            "label": "OBS sources",
+            "hashes": {
+                "windows-x64": "2a06b3cc7011a8b727f76184db46016e8527e3cfb8f4ba4e032c24c2eb70b36c"
+            }
+        },
+        "prebuilt": {
+            "version": "2024-05-08",
+            "baseUrl": "https://github.com/obsproject/obs-deps/releases/download",
+            "label": "Pre-Built obs-deps",
+            "hashes": {
+                "windows-x64": "773c87a0d173125ef2768aaca6f6de64a7d6053213cc9f7d3970a301152042d8"
+            }
+        },
+        "qt6": {
+            "version": "2024-05-08",
+            "baseUrl": "https://github.com/obsproject/obs-deps/releases/download",
+            "label": "Pre-Built Qt6",
+            "hashes": {
+                "windows-x64": "8f459af5115ce081ae24b108712327e113893f250e14a902b1bd188b43873ed1"
+            },
+            "debugSymbols": {
+                "windows-x64": "e4bc882f23195becbe53f1594fe75bdb9ff4f1d01e319f6caf8e0a38000cb42b"
+            }
+        }
+    },
+    "name": "obs-named-chapter-hotkeys",
+    "displayName": "Additional named chapter hotkeys",
+    "version": "1.0.0",
+    "author": "Dennis Sädtler",
+    "website": "https://rodney.io",
+    "email": "dennis@obsproject.com",
+    "uuids": {
+        "windowsApp": "c880c1c8-9246-4ebe-8cb6-03aad98e3a31"
+    }
+}
